@@ -7,7 +7,7 @@
  * Return: On success 1.
  */
 
-int _putstring(char c)
+int _printf(char c)
 {
 	return (write(1, &c, 1));
 }
