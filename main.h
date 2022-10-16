@@ -20,7 +20,7 @@ int _printf(const char *format, ...);
 int print_char(va_list);
 int print_percent(va_list);
 int print_string(va_list);
-int _putstring(char);
+int _putbomb(char);
 int _strlen(char *s);
 int print_number(va_list);
 int checker(const char *format, format_t symbols[], va_list str);
